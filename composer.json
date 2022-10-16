@@ -1,0 +1,30 @@
+{
+    "name": "mjpakzad/laravel-settings",
+    "description": "The laravel settings package let you save your settings in the database and access them easily.",
+    "homepage": "https://github.com/mjpakzad/laravel-settings",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mj Pakzad",
+            "email": "mj.pakzad@gmail.com"
+        }
+    ],
+    "keywords": ["laravel-settings"],
+    "autoload": {
+        "files": [
+            "src/helper.php"
+        ],
+        "psr-4": {
+            "Mjpakzad\\LaravelSettings\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mjpakzad\\LaravelSettings\\SettingServiceProvider"
+            ]
+        }
+    }
+}
