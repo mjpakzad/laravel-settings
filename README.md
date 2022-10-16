@@ -6,7 +6,7 @@ Add this package to your project using composer<br>
 `composer require mjpakzad/laravel-settings`
 
 Publish the migration file<br>
-`php artisan vendor:publish --provider="Mjpakzad\Settings\SettingsServiceProvider"`
+`php artisan vendor:publish --provider="Mjpakzad\LaravelSettings\SettingServiceProvider"`
 
 Migrate the new migration to create settings table<br>
 `php artisan migrate`
